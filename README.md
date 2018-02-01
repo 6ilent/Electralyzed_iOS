@@ -15,5 +15,5 @@ Check the [Release](https://github.com/6ilent/electralyzed_iOS/releases) tab for
 
 ### Credits
 ---
-> By 6ilent ([@Zer0Entry](https://twitter.com/zer0entry), [6ilent](http://reddit.com/user/6ilent))
+> By 6ilent (Twitter: [@Zer0Entry](https://twitter.com/zer0entry), Reddit: [6ilent](http://reddit.com/user/6ilent))
 If you plan to use any of my code, please give credit. Thanks. Copyright 2018 6ilent
