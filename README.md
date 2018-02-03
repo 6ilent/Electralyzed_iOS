@@ -1,6 +1,8 @@
 # Electralyzed for IOS
 
-### Big thanks to @coolstarorg for Electra Jailbreak Toolkit!
+### No this is NOT anything remotely close to being Cydia!
+
+### Big thanks to @coolstarorg for the Electra Jailbreak Toolkit!
 ---
 
 ### What is it?
