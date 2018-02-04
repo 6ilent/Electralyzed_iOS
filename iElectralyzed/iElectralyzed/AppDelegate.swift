@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  iElectralyzed
 //
-//  Created by Jose Velasquez on 2/2/18.
+//  Created by Jose Velasquez on 2/4/18.
 //  Copyright © 2018 6ilent. All rights reserved.
 //
 
