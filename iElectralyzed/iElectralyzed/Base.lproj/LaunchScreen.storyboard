@@ -17,36 +17,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iElectralyzed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Us0-qu-pdR">
-                                <rect key="frame" x="97" y="40" width="180" height="36"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage_Base" translatesAutoresizingMaskIntoConstraints="NO" id="MaN-K0-4Dl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iElectralyzed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HN4-OM-Tog">
+                                <rect key="frame" x="97.5" y="30" width="180" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by 6ilent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJz-gE-otC">
-                                <rect key="frame" x="97" y="641" width="180" height="18"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created By 6ilent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Stn-VP-P0m">
+                                <rect key="frame" x="128.5" y="639" width="118.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=";)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVj-M2-4Lb">
-                                <rect key="frame" x="97" y="299" width="180.5" height="72"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=";)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDU-09-dmB">
+                                <rect key="frame" x="159.5" y="286" width="56.5" height="95.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="80"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.15583400759999999" green="0.18105727220000001" blue="0.26371042389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WJz-gE-otC" secondAttribute="bottom" constant="8" id="6Vk-Au-Jhe"/>
-                            <constraint firstItem="WJz-gE-otC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="82e-eI-6EU"/>
-                            <constraint firstItem="iVj-M2-4Lb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DBe-Lh-6hG"/>
-                            <constraint firstItem="Us0-qu-pdR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="EvL-S6-m48"/>
-                            <constraint firstItem="iVj-M2-4Lb" firstAttribute="leading" secondItem="Us0-qu-pdR" secondAttribute="leading" id="V5a-DP-mqW"/>
-                            <constraint firstItem="WJz-gE-otC" firstAttribute="leading" secondItem="Us0-qu-pdR" secondAttribute="leading" id="ef4-XB-y26"/>
-                            <constraint firstItem="WJz-gE-otC" firstAttribute="leading" secondItem="Us0-qu-pdR" secondAttribute="leading" id="gtg-6e-iR2"/>
-                            <constraint firstItem="Us0-qu-pdR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="p7f-Lv-6ar"/>
-                            <constraint firstItem="WJz-gE-otC" firstAttribute="top" secondItem="iVj-M2-4Lb" secondAttribute="bottom" constant="270" id="xCR-ac-gRy"/>
+                            <constraint firstItem="HN4-OM-Tog" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2kG-tw-1Wc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MaN-K0-4Dl" secondAttribute="trailing" id="6vX-5u-MQj"/>
+                            <constraint firstItem="HN4-OM-Tog" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="A62-ha-AAC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Stn-VP-P0m" secondAttribute="bottom" constant="10" id="TPU-Oq-9QX"/>
+                            <constraint firstItem="MaN-K0-4Dl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="U8Y-x1-pJK"/>
+                            <constraint firstItem="eDU-09-dmB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ZG5-wT-SBd"/>
+                            <constraint firstItem="eDU-09-dmB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="d8r-OB-X8g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MaN-K0-4Dl" secondAttribute="bottom" id="fH9-6x-QFh"/>
+                            <constraint firstItem="MaN-K0-4Dl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ipl-Pk-PsJ"/>
+                            <constraint firstItem="Stn-VP-P0m" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="s0M-Nx-gcM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -56,4 +60,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchImage_Base" width="1242" height="2208"/>
+    </resources>
 </document>
